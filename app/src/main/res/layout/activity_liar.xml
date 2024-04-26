@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Liar">
+
+<!--    <Button-->
+<!--        android:id="@+id/liarOneBtn"-->
+<!--        android:layout_width="190dp"-->
+<!--        android:layout_height="190dp"-->
+<!--        android:fontFamily="sans-serif-black"-->
+<!--        android:text="1"-->
+<!--        android:textSize="100sp"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toStartOf="@+id/liarTwoBtn"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        app:layout_constraintVertical_bias="0.0" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/liarTwoBtn"-->
+<!--        android:layout_width="190dp"-->
+<!--        android:layout_height="190dp"-->
+<!--        android:fontFamily="sans-serif-black"-->
+<!--        android:text="2"-->
+<!--        android:textSize="100sp"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toEndOf="@+id/liarOneBtn"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        app:layout_constraintVertical_bias="0.0" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/liarThreeBtn"-->
+<!--        android:layout_width="190dp"-->
+<!--        android:layout_height="190dp"-->
+<!--        android:fontFamily="sans-serif-black"-->
+<!--        android:text="3"-->
+<!--        android:textSize="100sp"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toStartOf="@+id/liarFourBtn"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/liarOneBtn"-->
+<!--        app:layout_constraintVertical_bias="0.0" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/liarFourBtn"-->
+<!--        android:layout_width="190dp"-->
+<!--        android:layout_height="190dp"-->
+<!--        android:fontFamily="sans-serif-black"-->
+<!--        android:text="4"-->
+<!--        android:textSize="100sp"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toEndOf="@+id/liarThreeBtn"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/liarTwoBtn"-->
+<!--        app:layout_constraintVertical_bias="0.0" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/liarFiveBtn"-->
+<!--        android:layout_width="190dp"-->
+<!--        android:layout_height="190dp"-->
+<!--        android:fontFamily="sans-serif-black"-->
+<!--        android:text="5"-->
+<!--        android:textSize="100sp"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toStartOf="@+id/liarSixBtn"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/liarThreeBtn"-->
+<!--        app:layout_constraintVertical_bias="0.0" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/liarSixBtn"-->
+<!--        android:layout_width="190dp"-->
+<!--        android:layout_height="190dp"-->
+<!--        android:fontFamily="sans-serif-black"-->
+<!--        android:text="6"-->
+<!--        android:textSize="100sp"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toEndOf="@+id/liarFiveBtn"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/liarFourBtn"-->
+<!--        app:layout_constraintVertical_bias="0.0" />-->
+
+    <TextView
+        android:id="@+id/liarTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="liar text"
+        android:textSize="45sp"
+        app:layout_constraintBottom_toTopOf="@+id/liarNextBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.6" />
+
+    <Button
+        android:id="@+id/liarNextBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="next"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.86" />
+
+    <Button
+        android:id="@+id/liarBackBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:text="bye"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
